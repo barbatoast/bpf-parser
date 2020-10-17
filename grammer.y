@@ -26,7 +26,6 @@ prog : IP SRC HOST ADDR4
     ;
 %%
 
-#include <stdio.h>
 #include "lex.yy.c"
 
 int main(int argc, char *argv[]) {
